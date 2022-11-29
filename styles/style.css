@@ -1,0 +1,48 @@
+body {
+    background-color: #071838;
+    color: white;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    
+    width: 25%;
+    min-width: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(to right, #680f85 0%, #ebae05 51%, #fac021 100%);
+}
+
+button:hover {
+    background-position: right center;
+}
+
+.resultado {
+    margin: 4%;
+    background-color: #142442;
+    border-radius: 30px;
+    border-style:  solid;
+    border-color: #680f85;
+    text-align: right;
+    padding: ;
+}
+
+.mother_container {
+    
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.child_container_1 {
+    
+    height: 100%;
+    width: 100%;
+}
